@@ -11,7 +11,8 @@ a{
 }
 
   /* header */
-
+header{
+}
 .top-header{
     background-color:#f5f5f5;
     border-top:3px solid #09a6b2;
@@ -52,6 +53,9 @@ a{
 .top-nav-i{
     margin: 0 15px;
 }
+.p-box{
+    padding: 5px;
+}
 .top-inner{
     margin: 0 50px;
 }
@@ -72,4 +76,85 @@ a{
 /* main */
 .hero-1{
 
+}
+.arrow-co{
+    padding-top: 7px;
+}
+.arrow{
+    border: 1px solid #d6d6d6;
+    height: 35px;
+    width: 55px;
+    line-height: 0;
+    background:#f5f5f5;
+    color: #ccc
+}
+h1{
+    display:flex;
+    flex-direction:row;
+    border-left: 5px solid #09a6b2;
+    padding-right:10px;
+}
+h1::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid lightgray;
+    margin: auto;   
+}
+main section{
+    padding: 25px 0;
+}
+.section6{
+    padding-bottom: 45px;
+}
+.logo-r{
+    padding: 50px 0;
+}
+/* footer */
+footer{
+    background:#444b4c;
+}
+footer a{
+    color:#ccc;
+}
+footer span{
+    font-size: 25px;
+    color: white;       
+}
+.liststuf{
+    position:absolute;
+    left:0;
+}
+.stuf{
+    list-style-type: square;
+}
+.liststuf, .stuf::before{
+    color:#09a6b2;
+}
+.top-footer{
+    background:#d6d6d6;
+    padding: 27px 0;
+}
+.signup{
+    width: 530px;
+}
+.email{
+    background:#d6d6d6;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    height: 45px;
+    width: 200px;
+}
+.main-footer{
+    color:#ccc;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.colophon{
+    color:#ccc;
+    padding: 20px 0;
+}
+.social-box{
+    margin: 0 5px;
+    background:#626664; 
+    color:#ccc;
 }
