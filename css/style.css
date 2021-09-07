@@ -53,9 +53,7 @@ header{
 .top-nav-i{
     margin: 0 15px;
 }
-.p-box{
-    padding: 5px;
-}
+
 .top-inner{
     margin: 0 50px;
 }
@@ -157,4 +155,43 @@ footer span{
     margin: 0 5px;
     background:#626664; 
     color:#ccc;
+}
+
+
+/* media */
+
+@media(min-width: 768px){
+    .colophon{
+        font-size: 12px;
+    }
+    .social-box{
+        width: 45px;
+        height: 45px;
+    }
+    .colo{
+        line-height: 4;
+        text-align: end;
+    }
+}
+
+@media(max-width: 576px){
+    .logo{
+        margin-left: 95px;
+    }
+    .top-nav-i{
+        margin: 0 5px;
+    }
+    .top-nav-p{
+        font-size: 10px;
+    }
+    .main-footer span{
+        font-size: 15px;
+    }
+    .main-footer{
+        font-size: 12px;
+    }
+    .colo{
+        line-height: 2;
+        font-size: 10px;
+    }
 }
