@@ -11,8 +11,6 @@ a{
 }
 
   /* header */
-header{
-}
 .top-header{
     background-color:#f5f5f5;
     border-top:3px solid #09a6b2;
@@ -70,6 +68,9 @@ header{
 .search-d:hover{
     background:#09a6b2;
     color: white;
+}
+.search{
+    border: none;
 }
 /* main */
 .hero-1{
@@ -157,9 +158,12 @@ footer span{
     color:#ccc;
 }
 
-
 /* media */
-
+@media(max-width: 992px){
+    .searchbar{
+        justify-content: center;
+    }
+}
 @media(min-width: 768px){
     .colophon{
         font-size: 12px;
@@ -173,11 +177,21 @@ footer span{
         text-align: end;
     }
 }
-
-@media(max-width: 576px){
-    .logo{
-        margin-left: 95px;
+@media(max-width: 768px){
+    .show-c{
+        display: none;
     }
+    .searchbar{
+        justify-content: center;
+    }
+    .nav-col{
+        justify-content: center;
+    }
+    .logo-box{
+        justify-content: center;
+    }
+}
+@media(max-width: 576px){
     .top-nav-i{
         margin: 0 5px;
     }
