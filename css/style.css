@@ -157,7 +157,6 @@ footer span{
     background:#626664; 
     color:#ccc;
 }
-
 /* media */
 @media(max-width: 992px){
     .searchbar{
@@ -207,5 +206,12 @@ footer span{
     .colo{
         line-height: 2;
         font-size: 10px;
+        padding-top: 45px;
+    }
+    .face-col{
+        display:none;
+    }
+    .social-box{
+        display:none;
     }
 }
